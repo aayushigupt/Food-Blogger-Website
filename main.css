@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+.body{
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+}
+.navbar{
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    font-size: .9rem;
+    font-weight: 700;
+    box-shadow: 0 10px 20px rgb(116, 104, 104);
+
+}
+.nav-link:hover{
+    color: crimson!important;
+
+}
+.navbar-light .navbar-nav .nav-link{
+    color: rgb(66, 64, 64);
+    padding-top: .8rem;
+}
+.navbar-light ,.navbar-nav ,.nav-link.active,
+.navbar-light, .navbar-nav ,.nav-link:hover
+{
+    color: crimson!important;
+}
+
+.navbar-nav li{
+    padding-right: .7rem;
+}
+.content h1{
+    padding-top: 10%;
+    font-size:40px;
+    font-family: 'Pacifico', cursive;
+    padding-bottom: 20px;
+}
+.jumbotron{
+    padding: 2rem 0 3.5rem;
+}
+h2.heading{
+    padding-top: 50px;
+    text-transform: uppercase;
+    font-size: 1.9rem;
+}
+.heading-underline{
+    margin: 0 auto 4rem;
+    width: 4rem;
+    background-color: crimson;
+    height: 0.2rem;
+}
+.card{
+    box-shadow: 5px 5px 15px crimson;
+    
+}
+.card:hover{
+    background-color: crimson;
+    box-shadow: 5px 5px 15px grey;
+}
+.container
+{
+    padding-bottom: 20px;
+}
+.fixed-background{
+    background-image: url("images/jessica-ruscello--GUyf8ZCTHM-unsplash.jpg");
+
+    z-index: -1;
+    background-attachment: fixed;
+    padding: 7rem 2rem;
+    background-size:cover;
+}
+
+.footer{
+    background-color: crimson;
+    color:white;
+    height: 150px;
+    
+}
+.footer h5{
+    padding-top: 60px;
+    font-family: 'Pacifico', cursive;
+
+
+}

@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+#home
+{
+    background-image: url('images/annie-spratt-wQKIoaS5Va8-unsplash.jpg');
+    padding: 220px 0px 220px;
+    background-size: cover;
+    height: 100%;
+}
+.caption h1{
+   
+    font-size: 55px;
+    padding-bottom: 40px;
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 1px;
+    
+
+}
+.btn-lg
+{
+    border-width: large;
+    font-family: 'Pacifico', cursive;
+    border-radius: none;
+    padding: .3rem 1.3rem;
+    font-size: 1.5rem;
+    
+}
+.btn-lg:hover{
+    color: white;
+    background-color: #6f7174;
+    letter-spacing: .5px;
+
+}
+.style
+{
+    font-family: 'Lato', sans-serif;
+    color: black;
+    font-family: 'Pacifico', cursive;
+    text-transform: lowercase;
+    letter-spacing: 0.4px;
+}
+.style:hover{
+    color: white;
+}
